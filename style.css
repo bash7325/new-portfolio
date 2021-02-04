@@ -1,7 +1,18 @@
 .navbar {
-  background: linear-gradient(52deg, #42475C 0%, #17171a 71%);
+  background: linear-gradient(75deg, #42475C 0%, #17171a 50%);
 }
 
+.navbar-item:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+#logo {
+  background: url(./assets/BA-Logo.png) no-repeat center center;
+  background-size: cover;
+  width: 120px;
+  margin-right: 10px;
+}
 
 .va {
     display: flex;
@@ -9,7 +20,7 @@
   }
   
   .hero, footer {
-    background: linear-gradient(52deg, #42475C 0%, #17171a 71%);
+    background: linear-gradient(75deg, #42475C 0%, #17171a 50%);
   }
   
   .cta {
@@ -42,11 +53,11 @@
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 10px solid coral;
+    border-top: 10px solid rgb(136, 202, 255);
   }
   
   #box-1 hr {
-    background: coral;
+    background: rgb(136, 202, 255);
   }
   
   #box-2 {
@@ -55,11 +66,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 10px solid rgb(243, 102, 102);
+    border-top: 10px solid rgb(255, 179, 148);
   }
   
   #box-2 hr {
-    background: rgb(243, 102, 102);
+    background: rgb(255, 179, 148);
   }
   
   #box-3 {
@@ -68,11 +79,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 10px solid rgb(139, 137, 255);
+    border-top: 10px solid rgb(212, 112, 214);
   }
   
   #box-3 hr {
-    background: rgb(139, 137, 255);
+    background: rgb(212, 112, 214);
+  }
+
+  .label {
+    color: white;
   }
 
   #contact hr {
@@ -87,12 +102,3 @@
     transition: all .2s ease-in-out;
   }
 
-  .navbar-item:hover {
-    opacity: 1;
-    transition: 0.3s;
-  }
-  @media only screen and (max-device-width: 480px) {
-    .parallax {
-      background-attachment: scroll;
-    }
-  }
