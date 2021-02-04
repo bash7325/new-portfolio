@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(75deg, #42475C 0%, #17171a 50%);
+  background: linear-gradient(75deg, #42475C 0%, #1E1E1E 50%);
 }
 
 .navbar-item:hover {
@@ -20,7 +20,7 @@
   }
   
   .hero, footer {
-    background: linear-gradient(75deg, #42475C 0%, #17171a 50%);
+    background: linear-gradient(75deg, #42475C 0%, #1E1E1E 50%);
   }
   
   .cta {
@@ -101,4 +101,5 @@
   .grow {
     transition: all .2s ease-in-out;
   }
+
 
