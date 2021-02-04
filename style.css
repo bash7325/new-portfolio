@@ -1,3 +1,7 @@
+.navbar {
+  background: linear-gradient(52deg, #42475C 0%, #17171a 71%);
+}
+
 
 .va {
     display: flex;
@@ -59,7 +63,7 @@
   }
   
   #box-3 {
-    background: url(./assets/placeholder.jpg);
+    background: url(./assets/placeholder2.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,33 +75,16 @@
     background: rgb(139, 137, 255);
   }
 
-  #box-4 {
-    background: url(./assets/placeholder2.jpg);
-    background-attachment: fixed;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 10px solid coral;
-  }
-
   #contact hr {
     background: brown;
   }
   
-  .label {
-    color: white;
-  }
-  
-  input {
-    background: transparent !important;
-    border: 1px solid rgb(245, 77, 77) !important;
-    color: white !important;
-  }
-  
-  input::placeholder {
-    color: white !important;
-  }
-
   .button:hover {
     transform: scale(1.1);
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
   }
