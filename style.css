@@ -91,6 +91,10 @@ background: rgb(224, 64, 64);
     background: rgb(212, 112, 214);
   }
 
+  #projects hr {
+    background: rgb(224, 64, 64);
+  }
+
   .label {
     color: white;
   }
