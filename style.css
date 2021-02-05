@@ -1,5 +1,6 @@
 .navbar {
   background: linear-gradient(75deg, #42475C 0%, #1E1E1E 50%);
+  border-bottom: 10px solid rgb(224, 64, 64);
 }
 
 .navbar-item:hover {
@@ -19,13 +20,17 @@
     align-items: center;
   }
   
-  .hero, footer {
+  .hero, footer, body {
     background: linear-gradient(75deg, #42475C 0%, #1E1E1E 50%);
   }
   
   .cta {
     height: 500px;
     border-top: 10px solid rgb(224, 64, 64);
+  }
+
+  #header hr {
+background: rgb(224, 64, 64);
   }
   
   .title {
@@ -50,7 +55,7 @@
   #box-1 {
     background: url(./assets/Smartphone\ Mockup.jpg);
     background-attachment: fixed;
-    background-position: center top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-top: 10px solid rgb(136, 202, 255);
@@ -102,4 +107,38 @@
     transition: all .2s ease-in-out;
   }
 
+  #restRoul {
+    height: 100px;
+  }
 
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    100% {
+      transform: translateX(0);
+    }
+    0% {
+      transform: translateX(100%);
+    }
+  }
+  
+  nav {  
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    
+  }
+
+  #portContent {
+    background: linear-gradient(75deg, #42475C 0%, #1E1E1E 50%);
+    
+  }
+
+  .card {
+    background-color: #2F2F2F;
+  }
