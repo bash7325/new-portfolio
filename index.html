@@ -27,13 +27,13 @@
         </div>
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item" href="">
+                <a class="navbar-item" href="./about.html">
                     About Me
                 </a>
                 <a class="navbar-item" href="portfolio.html">
                     My Projects
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="index.html#box-3">
                     Contact Me
                 </a>
             </div>
@@ -60,9 +60,8 @@
                     <div class="column is-6 is-offset-6">
                         <h1 class="title is-1 ">About Me</h1>
                         <hr class="content-divider">
-                        <h2 class="subtitle">I'm a resident of Salt Lake City, UT. My passions include my dog, my
-                            family, tech and the great outdoors.</h2>
-                        <a href="#" class="button is-dark grow">Learn More&ensp;<i
+                        <h2 class="subtitle">Learn a little more about me</h2>
+                        <a href="about.html" class="button is-dark grow">Learn More&ensp;<i
                                 class="fas fa-chevron-circle-right"></i></a>
                     </div>
                 </div>
@@ -87,22 +86,22 @@
         <section id="box-3" class="cta va parallax">
             <div class="column is-4 is-offset-1">
                 <div class="field">
-                    <label class="label">Name</label>
+                    <label class="label">Your Email</label>
                     <div class="control">
-                        <input class="input is-medium" type="text" placeholder="Enter Your Name">
+                        <input id="user-email" class="input is-medium" type="text" placeholder="Enter Your Email">
                     </div>
                 </div>
                 <br>
                 <div class="field">
                     <label class="label">Message</label>
                     <div class="control">
-                        <textarea class="input is small textarea" placeholder="Enter a Message"></textarea>
+                        <textarea id="user-message" class="input is-medium textarea" placeholder="Enter a Message and Your Name"></textarea>
                     </div>
                 </div>
                 <br>
                 <div class="field is-grouped">
                     <div class="control">
-                        <button class="button is-white is-rounded is-outlined grow">Submit</button>
+                        <button id="submit-button" class="button is-white is-rounded is-outlined grow">Submit</button>
                     </div>
                 </div>
             </div>
@@ -128,6 +127,8 @@
                 </div>
         </footer>
 </body>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
 <script src="./script.js"></script>
 
 </html>
