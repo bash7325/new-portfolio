@@ -16,22 +16,16 @@ $(document).ready(function () {
     event.preventDefault();
     var userEmail = $("#user-email").val().trim();
     var userMessage = $("#user-message").val().trim();
-
-    localStorage.setItem("user email", userEmail);
-    localStorage.setItem("user message", userMessage);
-
-    console.log(userEmail);
-    console.log(userMessage);
     sendEmail();
 
     function sendEmail() {
       Email.send({
-        SecureToken: "18546a48-7b1a-453f-a1ed-e2e5f9ab7473 ",
+        SecureToken: "4f7c11b9-5aee-4ecc-9ca6-7583e2fd8d74",
         To: "bash7325@gmail.com",
-        From: userEmail,
+        From: "bash7325@gmail.com",
         Subject: "Message from my portfolio",
-        Body: userMessage,
-      }).then((message) => alert(message));
+        Body: userMessage + "\n" + userEmail,
+      }).then((message) => alert("Message Sent!  I'll Be In Touch Soon."));
     }
   });
 });
