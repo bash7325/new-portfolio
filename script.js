@@ -26,9 +26,9 @@ $(document).ready(function () {
 
     function sendEmail() {
       Email.send({
-        SecureToken: "3831b7e-5f9b-4a34-b9c2-03b23d3df736",
+        SecureToken: "18546a48-7b1a-453f-a1ed-e2e5f9ab7473 ",
         To: "bash7325@gmail.com",
-        From: userMessage,
+        From: userEmail,
         Subject: "Message from my portfolio",
         Body: userMessage,
       }).then((message) => alert(message));
