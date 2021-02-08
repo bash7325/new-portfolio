@@ -25,7 +25,7 @@ $(document).ready(function () {
         From: "bash7325@gmail.com",
         Subject: "Message from my portfolio",
         Body: userMessage + "\n" + userEmail,
-      }).then((message) => alert("Message Sent!  I'll Be In Touch Soon."));
+      }).then((message) => $("#submit-button").text("Message Sent!"));
     }
   });
 });

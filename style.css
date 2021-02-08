@@ -23,6 +23,10 @@
   .hero, footer, body {
     background: linear-gradient(75deg, #42475C 0%, #1E1E1E 50%);
   }
+
+  footer {
+    border-top: 10px solid rgb(224, 64, 64);
+  }
   
   .cta {
     height: 500px;
