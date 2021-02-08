@@ -106,6 +106,13 @@ background: rgb(224, 64, 64);
   #contact hr {
     background: brown;
   }
+
+  #about-hr {
+    background: rgb(224, 64, 64);
+    max-width: 100px;
+    height: 5px;
+    margin: 0 auto;
+  }
   
   .button:hover {
     transform: scale(1.1);
