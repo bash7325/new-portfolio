@@ -1,5 +1,6 @@
 .navbar {
-  background: linear-gradient(75deg, #42475C 0%, #1E1E1E 50%);
+  background: linear-gradient(75deg, #42475c 0%, #1e1e1e 50%);
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
   border-bottom: 10px solid rgb(224, 64, 64);
 }
 
@@ -16,156 +17,156 @@
 }
 
 .va {
-    display: flex;
-    align-items: center;
-  }
-  
-  .hero, footer, body {
-    background: linear-gradient(75deg, #42475C 0%, #1E1E1E 50%);
-  }
+  display: flex;
+  align-items: center;
+}
 
-  footer {
-    border-top: 10px solid rgb(224, 64, 64);
-  }
-  
-  .cta {
-    height: 500px;
-    border-top: 10px solid rgb(224, 64, 64);
-  }
+.hero,
+footer,
+body {
+  background: linear-gradient(75deg, #42475c 0%, #1e1e1e 50%);
+}
 
-  #header hr {
-background: rgb(224, 64, 64);
-  }
-  
-  .title {
-    color: white;
-    font-weight: 800;
-    font-size: 64px;
-    font-family: 'Josefin Sans', sans-serif;;
-    text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
-  }
-  
-  .subtitle {
-    color: white;
-    font-size: 19px;
-    text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
-  }
-  
-  hr.content-divider {
-    max-width: 100px;
-    height: 5px;
-  }
-  
-  #box-1 {
-    background: url(./assets/Smartphone\ Mockup.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 10px solid rgb(136, 202, 255);
-  }
-  
-  #box-1 hr {
-    background: rgb(136, 202, 255);
-  }
-  
-  #box-2 {
-    background: url(./assets/test.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 10px solid rgb(255, 179, 148);
-  }
-  
-  #box-2 hr {
-    background: rgb(255, 179, 148);
-  }
-  
-  #box-3 {
-    background: url(./assets/placeholder2.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 10px solid rgb(212, 112, 214);
-  }
-  
-  #box-3 hr {
-    background: rgb(212, 112, 214);
-  }
+footer {
+  border-top: 10px solid rgb(224, 64, 64);
+}
 
-  #projects hr {
-    background: rgb(224, 64, 64);
-  }
+.cta {
+  height: 500px;
+  border-top: 10px solid rgb(224, 64, 64);
+}
 
-  .label {
-    color: white;
-  }
+#header hr {
+  background: rgb(224, 64, 64);
+}
 
-  #contact hr {
-    background: brown;
-  }
+.title {
+  color: white;
+  font-weight: 800;
+  font-size: 64px;
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
 
-  #about-hr {
-    background: rgb(224, 64, 64);
-    max-width: 100px;
-    height: 5px;
-    margin: 0 auto;
-  }
-  
-  .button:hover {
-    transform: scale(1.1);
-  }
+.subtitle {
+  color: white;
+  font-size: 19px;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
 
-  .grow {
-    transition: all .2s ease-in-out;
-  }
+hr.content-divider {
+  max-width: 100px;
+  height: 5px;
+}
 
-  #restRoul {
-    height: 100px;
-  }
+#box-1 {
+  background: url(./assets/Smartphone\ Mockup.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid rgb(136, 202, 255);
+}
 
-  @keyframes slideInFromLeft {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  
-  @keyframes slideInFromRight {
-    100% {
-      transform: translateX(0);
-    }
-    0% {
-      transform: translateX(100%);
-    }
-  }
-  
-  nav {  
-    animation: 1s ease-out 0s 1 slideInFromLeft;
-    
-  }
+#box-1 hr {
+  background: rgb(136, 202, 255);
+}
 
-  #portContent {
-    background: linear-gradient(75deg, #42475C 0%, #1E1E1E 50%);
-    
-  }
+#box-2 {
+  background: url(./assets/test.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid rgb(255, 179, 148);
+}
 
-  .card {
-    background-color: #2F2F2F;
-  }
+#box-2 hr {
+  background: rgb(255, 179, 148);
+}
 
-  #self-portrait {
-    width: 300px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+#box-3 {
+  background: url(./assets/placeholder2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid rgb(212, 112, 214);
+}
 
-  #about-divider {
-    background: rgb(224, 64, 64);
+#box-3 hr {
+  background: rgb(212, 112, 214);
+}
+
+#projects hr {
+  background: rgb(224, 64, 64);
+}
+
+.label {
+  color: white;
+}
+
+#contact hr {
+  background: brown;
+}
+
+#about-hr {
+  background: rgb(224, 64, 64);
+  max-width: 100px;
+  height: 5px;
+  margin: 0 auto;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+#restRoul {
+  height: 100px;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
   }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  100% {
+    transform: translateX(0);
+  }
+  0% {
+    transform: translateX(100%);
+  }
+}
+
+nav {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+#portContent {
+  background: linear-gradient(75deg, #42475c 0%, #1e1e1e 50%);
+}
+
+.card {
+  background-color: #2f2f2f;
+}
+
+#self-portrait {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about-divider {
+  background: rgb(224, 64, 64);
+}
