@@ -2,6 +2,10 @@
 
 - An update to my portfolio incorporating my new skills in HTML, CSS, Bulma framework, JavaScript, Jquery and server side API's.
 
+# Deployed link
+
+- [Brandon Ashby's Portfolio](https://bash7325.github.io/new-portfolio/)
+
 # Technologies used
 
 - HTML
