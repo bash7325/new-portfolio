@@ -107,7 +107,7 @@ hr.content-divider {
 }
 
 #contact hr {
-  background: brown;
+  background: rgb(224, 64, 64);;
 }
 
 #about-hr {
@@ -138,15 +138,6 @@ hr.content-divider {
   }
 }
 
-@keyframes slideInFromRight {
-  100% {
-    transform: translateX(0);
-  }
-  0% {
-    transform: translateX(100%);
-  }
-}
-
 nav {
   animation: 1s ease-out 0s 1 slideInFromLeft;
 }
@@ -157,6 +148,10 @@ nav {
 
 .card {
   background-color: #2f2f2f;
+}
+
+.link:hover {
+  color: rgb(224, 64, 64);
 }
 
 #self-portrait {
