@@ -23,7 +23,7 @@
 
 # Screenshots
 
-![Page 1](https://imgur.com/tLjcpd4)
-![Page 2](https://imgur.com/ambRDPz)
-![Page 3](https://imgur.com/4rABjSj)
-![Page 4](https://imgur.com/c0wKIe1)
+![Imgur](https://i.imgur.com/tLjcpd4.png)
+![Imgur](https://i.imgur.com/ambRDPz.png)
+![Imgur](https://i.imgur.com/4rABjSj.png)
+![Imgur](https://i.imgur.com/c0wKIe1.png)
