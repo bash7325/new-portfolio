@@ -22,4 +22,8 @@ $(document).ready(function () {
       }).then((message) => $("#submit-button").text("Message Sent"));
     }
   });
+  AOS.init({
+    offset: 200,
+    duration: 1000
+  })
 });
