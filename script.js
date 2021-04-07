@@ -22,8 +22,20 @@ $(document).ready(function () {
       }).then((message) => $("#submit-button").text("Message Sent"));
     }
   });
+  
   AOS.init({
     offset: 350,
     duration: 1000
   })
+
+  window.onscroll = function () {
+    scrollFunction();
+  };
+  function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      document.getElementById("toTop").style.display = "block";
+    } else {
+      document.getElementById("toTop").style.display = "none";
+    }
+  }
 });
