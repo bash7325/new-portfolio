@@ -2,6 +2,7 @@
   background: linear-gradient(75deg, #42475c 0%, #1e1e1e 50%);
   text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
   border-bottom: 10px solid rgb(224, 64, 64);
+  display: flex;
 }
 
 .navbar-item:hover {
